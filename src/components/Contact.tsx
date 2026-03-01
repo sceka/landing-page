@@ -59,8 +59,8 @@ export default function Contact() {
 					<div className='animate-in idk'>
 						<h2>Kontakt</h2>
 						<p>
-							Imate pitanja? Spreman sam da pomognem Vama i Vasem projektu na najbolji
-							mogući način. Pošaljite mi poruku ili pozovite direktno.
+							Imate pitanja? Spremni smo da pomognemo Vama i Vasem projektu na najbolji
+							mogući način. Pošaljite nam poruku ili pozovite direktno.
 						</p>
 					</div>
 
