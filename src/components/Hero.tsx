@@ -14,9 +14,9 @@ export default function Hero() {
 	const subtitle1Ref = useRef<HTMLParagraphElement>(null);
 	const subtitle2Ref = useRef<HTMLParagraphElement>(null);
 
-	const title = "Đorđe Popović";
-	const subtitle1 = "Softverski Inženjer sa preko 5+ godina radnog iskustva.";
-	const subtitle2 = "Specijalizovan u izradi modernih web sajtova i aplikacija.";
+	const title = "Quark Digital";
+	const subtitle1 = "Softverska agencija iz Crne Gore. Izrada dizajn web sajtova i aplikacija.";
+	const subtitle2 = "Specijalizovani u izradi modernih web sajtova i aplikacija.";
 
 	useEffect(() => {
 		// Setup word-by-word loading

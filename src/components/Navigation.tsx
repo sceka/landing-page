@@ -54,7 +54,7 @@ export default function Navigation() {
 		<nav className='nav'>
 			<div className='nav-container'>
 				<div className='nav-logo'>
-					<a onClick={() => scrollToSection("home")}>Đorđe Popović</a>
+					<a onClick={() => scrollToSection("home")}>Quark Digital</a>
 				</div>
 				<ul className={`nav-menu ${isMenuOpen ? "active" : ""}`}>
 					<li className='nav-item'>
@@ -74,16 +74,16 @@ export default function Navigation() {
 					</li>
 					<li className='nav-item'>
 						<a
-							className={`nav-link ${activeSection === "portfolio" ? "active" : ""}`}
-							onClick={() => scrollToSection("portfolio")}>
-							Portfolio
+							className={`nav-link ${activeSection === "about" ? "active" : ""}`}
+							onClick={() => scrollToSection("about")}>
+							O nama
 						</a>
 					</li>
 					<li className='nav-item'>
 						<a
-							className={`nav-link ${activeSection === "about" ? "active" : ""}`}
-							onClick={() => scrollToSection("about")}>
-							O meni
+							className={`nav-link ${activeSection === "portfolio" ? "active" : ""}`}
+							onClick={() => scrollToSection("portfolio")}>
+							Portfolio
 						</a>
 					</li>
 					<li className='nav-item'>

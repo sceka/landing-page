@@ -5,9 +5,9 @@ import "./globals.css";
 const poppins = Poppins({ subsets: ["latin"], weight: ["400", "500", "600", "700"] });
 const montserrat = Montserrat({ subsets: ["latin"], weight: ["400", "500", "600", "700"] });
 
-const title = "Đorđe Popović - Softverski Inženjer";
+const title = "Quark Digital";
 const description =
-	"Programer sa preko 5+ godina radnog iskustva u izradi modernih web sajtova i aplikacija.";
+	"Softverska agencija iz Crne Gore. Izrada i dizajn web sajtova i aplikacija.";
 
 export const metadata: Metadata = {
 	title,

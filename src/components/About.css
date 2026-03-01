@@ -9,8 +9,11 @@
 	display: flex;
 	align-items: center;
 	gap: 5rem;
-
 	text-align: left;
+}
+
+.about-content + .about-content {
+	margin-top: 4rem;
 }
 
 .about-text {

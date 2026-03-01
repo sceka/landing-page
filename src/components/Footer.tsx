@@ -10,8 +10,8 @@ export default function Footer() {
 			<div className='container'>
 				<div className='footer-content'>
 					<div className='footer-section'>
-						<h3>Đorđe Popović</h3>
-						<p>Softverski inženjer. Izrada i dizajn web sajtova.</p>
+						<h3>Quark Digital</h3>
+						<p>Softverska agencija iz Crne Gore. Izrada i dizajn web sajtova i mobilnih aplikacija.</p>
 					</div>
 					<div className='footer-section'>
 						<h4>Usluge</h4>
@@ -25,13 +25,13 @@ export default function Footer() {
 						<h4>Kontakt</h4>
 						<ul>
 							<li>Podgorica, Crna Gora</li>
-							<li>georgepopovich14@gmail.com</li>
-							<li>+382 69 397 895</li>
+							<li>scekicm02@gmail.com</li>
+							<li>+382 67 227 668</li>
 						</ul>
 					</div>
 				</div>
 				<div className='footer-bottom'>
-					<p>&copy; {currentYear} Đorđe Popović.</p>
+					<p>&copy; {currentYear} Quark Digital.</p>
 				</div>
 			</div>
 		</footer>

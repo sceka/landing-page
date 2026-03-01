@@ -1,17 +1,18 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import "./Contact.css";
 
 const contactInfo = [
 	{
 		title: "✉️ Email",
-		description: "georgepopovich14@\ngmail.com",
-		link: "mailto:georgepopovich14@gmail.com"
+		description: "scekicm02@\ngmail.com",
+		link: "mailto:scekicm02@gmail.com"
 	},
 	{
 		title: "📞 Telefon",
-		description: "+382 69 397 895\n(Viber / WhatsApp)",
-		link: "tel:+38269397895"
+		description: "+382 67 227 668\n(Viber / WhatsApp)",
+		link: "tel:+38267227668"
 	},
 	{
 		title: "🌍 Lokacija",
@@ -20,17 +21,16 @@ const contactInfo = [
 ];
 
 export default function Contact() {
-	let isSafari = false;
-	const userAgent = navigator.userAgent.toLowerCase();
-	if (userAgent.indexOf("safari") != -1) {
-		if (userAgent.indexOf("chrome") > -1) {
-			//browser is chrome
-		} else if (userAgent.indexOf("opera") > -1 || userAgent.indexOf("opr") > -1) {
-			//browser is opera
-		} else {
-			isSafari = true;
+	const [isSafari, setIsSafari] = useState(false);
+
+	useEffect(() => {
+		const userAgent = navigator.userAgent.toLowerCase();
+		if (userAgent.indexOf("safari") !== -1) {
+			if (userAgent.indexOf("chrome") === -1 && userAgent.indexOf("opera") === -1 && userAgent.indexOf("opr") === -1) {
+				setIsSafari(true);
+			}
 		}
-	}
+	}, []);
 
 	function renderContactItem(item: (typeof contactInfo)[0]) {
 		const splitDescription = item.description.split("\n");
@@ -79,7 +79,7 @@ export default function Contact() {
 
 						<div className={`contact-cta-container ${isSafari ? "no-gradient" : ""}`}>
 							<div className='contact-cta-background-gradient' />
-							<a className='btn contact-cta' href='tel:+38269397895'>
+							<a className='btn contact-cta' href='tel:+38267227668'>
 								Kontaktiraj
 							</a>
 						</div>
