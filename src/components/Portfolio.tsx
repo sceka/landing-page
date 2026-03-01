@@ -75,7 +75,6 @@ const workExperienceByMember: { memberName: string; projects: ProjectItem[] }[] 
 				description:
 					"Norveška kompanija koja se bavi NFT-ovima i kriptovalutama — platforma za upravljanje i kreiranje digitalnih sadržaja. Vodio sam ključnu inicijativu — implementaciju sigurnosnog i autentifikacionog sistema za platformu za upravljanje digitalnim sadržajima, pri čemu je bilo u pitanju preko 50.000$. Predvodio sam i razvoj Wiv Marketplace platforme: završio je za 2 mjeseca umjesto planiranih 5, ubrzavši napredak za 60% već u prve dvije sedmice i uštedjevši kompaniji hiljade dolara.",
 				image: wivImage,
-				link: "https://wiv.io"
 			},
 			{
 				id: 11,
@@ -106,7 +105,6 @@ const workExperienceByMember: { memberName: string; projects: ProjectItem[] }[] 
 				description:
 					"Norveška kompanija koja se bavi NFT-ovima i kriptovalutama — platforma za upravljanje i kreiranje digitalnih sadržaja. Radio sam u timu na razvoju proizvoda, od održavanja do novih funkcionalnosti, u bliskoj saradnji sa ostatkom tima. Dinamično okruženje u kojem se brzo donose odluke i uči na izazovima. Doprinosio sam kvalitetu i stabilnosti platforme tokom perioda njenog rasta.",
 				image: wivImage,
-				link: "https://wiv.io"
 			}
 		]
 	}
