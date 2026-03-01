@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Montserrat, Poppins } from "next/font/google";
 import "./globals.css";
-
+import { Analytics } from "@vercel/analytics/next"
 const poppins = Poppins({ subsets: ["latin"], weight: ["400", "500", "600", "700"] });
 const montserrat = Montserrat({ subsets: ["latin"], weight: ["400", "500", "600", "700"] });
 
@@ -34,6 +34,7 @@ export default function RootLayout({
 	return (
 		<html lang='sr'>
 			<body className={`${poppins.className} ${montserrat.className}`}>{children}</body>
+			<Analytics />
 		</html>
 	);
 }
